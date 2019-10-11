@@ -12,7 +12,7 @@ const adder = new Vue({
     result: function () {
       const i = parseInt(this.firstNumber)
 
-      return ` your sum is ${calculateFarenheit(i)}.`
+      return ` The temperature in Farenheit is ${calculateFarenheit(i)}.`
     }
   }
 })
