@@ -11,7 +11,6 @@ const adder = new Vue({
   computed: {
     result: function () {
       const i = parseInt(this.firstNumber)
-
       return ` The temperature in Farenheit is ${calculateFarenheit(i)}.`
     }
   }
