@@ -6,7 +6,6 @@ const calculateFarenheit = (x) => { return x * 9.00/5.0 + 32.0 }
 const adder = new Vue({
   el: '#adder',
   data: {
-    guest: 'Emmett',
     firstNumber: 5,
   },
   computed: {
