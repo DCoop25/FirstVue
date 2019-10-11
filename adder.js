@@ -12,7 +12,7 @@ const adder = new Vue({
     result: function () {
       const i = parseInt(this.firstNumber)
 
-      return `${this.guest}, your sum is ${calculateFarenheit(i)}.`
+      return ` your sum is ${calculateFarenheit(i)}.`
     }
   }
 })
